@@ -1,175 +1,89 @@
-body {
-    font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', Arial, sans-serif;
-    background: linear-gradient(135deg, #f9f871 0%, #a1eafb 100%);
-    margin: 0;
-    padding: 0;
-    color: #333;
+body{
+    background-color: rgb(188, 237, 221);
+    font-family: fantasy;
+    
 }
-
-header {
+/*sekce1*/
+.s1{
+    background-color: cadetblue;
+    height: 400px;
+    box-sizing: border-box;
     text-align: center;
-    background: #fffbe7;
-    padding: 2rem 1rem 1rem 1rem;
-    border-bottom: 4px solid #ffe066;
-}
-.hlava-flex {
-    display: flex;
-    align-items: normal;
-    justify-content: center;
-    /* nebo space-between, pokud chceš rozestup */
-    gap: 1rem;
-    /* mezera mezi logem a nadpisem */
-    flex-wrap: wrap;
-    /* pro lepší zobrazení na mobilu */
-}
+    padding: 100px;
+    color: rgb(57, 57, 103);
+    font-size: 50px;
+    
 
-.hlava-flex img {
-    max-width: 50px;
-    border-radius: 5px;
-    height: auto;
 }
-
-.hlava-flex h1 {
-    margin: 0;
-    font-size: 2rem;
-    color: #3a86ff;
-}
-
-.logo {
-    width: 80px;
-    margin-bottom: 0.5rem;
-}
-
-.slogan {
-    color: #ff7f50;
-    font-size: 1.2rem;
-    margin-top: 0.2rem;
-}
-
-.motiv {
-    display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-}
-
-.motiv img {
-    width: 220px;
-    border-radius: 20px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-}
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 1.5rem;
-}
-
-section {
-    margin-bottom: 2.5rem;
-}
-
-h1,
-h2,
-h3 {
-    color: #3a86ff;
-    margin-bottom: 0.5rem;
-}
-
-.offer-boxes {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
+.s1d1{
     
 }
 
-.offer-box {
-    background: linear-gradient(135deg, #ffd6e0 0%, #b5ead7 100%);
-    border-radius: 16px;
-    padding: 1.2rem;
-    width: 220px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
-    text-align: center;
-    transition: transform 0.2s, box-shadow 0.2s;
-    cursor: pointer;
-   
-}
-
-.offer-box:hover {
-    transform: scale(1.05) rotate(-2deg);
-    box-shadow: 0 6px 24px rgba(58, 134, 255, 0.13);
-    background: linear-gradient(135deg, #fff1e6 0%, #caffbf 100%);
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    background: #fff;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-}
-
-th,
-td {
-    padding: 0.8rem 1rem;
-    text-align: left;
-}
-
-th {
-    background: #a1eafb;
-    color: #333;
-}
-
-tr:nth-child(even) {
-    background: #f9f871;
-}
-
-.contact form {
+/*sekce2*/
+.s2{
+    background-color: rgb(96, 71, 43);
+    height: 400px;
     display: flex;
-    flex-direction: column;
-    gap: 0.7rem;
-    max-width: 400px;
-    margin: 0 auto;
+    justify-content: space-evenly;
+    font-size: 50px;
+    padding: 100px;
+    box-sizing: border-box;
+}
+.s2d1{
+    
+    display: flex;
+    color: rgb(164, 60, 60);
+    width: 900px;
+    justify-content: space-evenly;
+  
+    
+
+}
+a{
+    text-decoration: none;
+    color: rgb(200, 171, 76);
+}
+.biblesvice{
+    border-radius: 20px;
+}
+.s2d2{
+    
+  
+    display: flex;
+    color: rgb(164, 60, 60);
+    width: 1100px;
+    justify-content: space-evenly;
+
+}
+.bible1{
+    
+    padding-inline: 50px;
+    
+}
+.bible2{
+    padding-inline: 50px;
+    border-radius: 50px;
 }
 
-input,
-textarea {
-    padding: 0.7rem;
-    border: 2px solid #a1eafb;
-    border-radius: 8px;
-    font-size: 1rem;
-    resize: none;
-}
 
-button {
-    background: linear-gradient(90deg, #3a86ff 0%, #ffbe0b 100%);
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 0.8rem;
-    font-size: 1.1rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.2s, transform 0.2s;
-}
-
-button:hover {
-    background: linear-gradient(90deg, #ffbe0b 0%, #3a86ff 100%);
-    transform: scale(1.04);
-}
-
-#formMsg {
-    color: #43aa8b;
-    font-weight: bold;
-    min-height: 1.2em;
-}
-
-footer {
+/*sekce3*/
+.s3{
+    background-color: rgb(85, 111, 112);
+    height: 1000px;
+    font-size: 40px;
     text-align: center;
-    background: #fffbe7;
-    padding: 1rem;
-    font-size: 0.95rem;
-    color: #888;
-    border-top: 2px solid #ffe066;
+    padding: 100px;
+    box-sizing: border-box;
 }
+.dentext{
+    color: rgb(57, 57, 103);
+
+}
+.text{
+    
+    color: rgb(122, 226, 43);
+    border-radius: 50px;
+
+  
+}
+
